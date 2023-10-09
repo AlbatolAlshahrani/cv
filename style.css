@@ -21,6 +21,7 @@ body {
   font-size: 50px;
   margin: 20px 0;
 }
+
 .intro h2 {
   color: #DAC0A3;
   font-size: 22px;
@@ -57,6 +58,9 @@ hr {
   line-height: 2;
 }
 
+.sec p {
+  color: white;
+}
 
 .experience {
   padding: 40px 100px;
@@ -81,9 +85,10 @@ hr {
 }
 
 .experience .parent-div {
- display: flex;
- gap: 50px;
+  display: flex;
+  gap: 50px;
 }
+
 .experience .data-project h3 {
   color: #DAC0A3;
   font-size: 20px;
@@ -114,6 +119,7 @@ hr {
   margin-bottom: 20px;
   text-align: center;
 }
+
 .contact p {
   color: white;
   margin: 20px auto;
@@ -122,34 +128,41 @@ hr {
 }
 
 .contact div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
 }
 
 .contact div h3 {
   color: #DAC0A3;
-    font-size: 20px;
-    margin: 10px 0;
+  font-size: 20px;
+  margin: 10px 0;
 }
 
 .contact div h3 {
   color: #DAC0A3;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.contact div h3 i a{
+.contact div h3 i a {
   color: #DAC0A3;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgb(228, 228, 228);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
 
+}
+
+
+@media (max-width: 375px) {
+  .hidden{
+    visibility: hidden;
+  }
 }
